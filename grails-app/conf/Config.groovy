@@ -89,3 +89,10 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+grails.plugins.springsecurity.oauthProvider.clients = [
+    [
+        clientId:"myId",
+        clientSecret:"mySecret"
+    ]
+]
